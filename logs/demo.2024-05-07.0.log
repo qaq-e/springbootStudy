@@ -1,0 +1,270 @@
+14:51:55.080 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 11884 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+14:51:55.082 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+14:51:55.803 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+14:51:55.809 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+14:51:55.810 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:51:55.810 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:51:55.998 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:51:55.998 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 882 ms
+14:51:56.158 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+14:51:56.267 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+14:51:56.280 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+14:51:56.287 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.777 seconds (JVM running for 3.043)
+14:52:58.992 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:52:58.992 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:52:58.993 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:52:59.011 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======测试日志info级别打印=====
+14:52:59.011 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+14:52:59.011 [http-nio-80-exec-1] WARN c.z.s.demos.controller.LogController - ======测试日志warn级别打印=====
+14:52:59.011 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+14:56:22.175 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 22580 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+14:56:22.177 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+14:56:22.945 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+14:56:22.951 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+14:56:22.951 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:56:22.951 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:56:23.061 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:56:23.062 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+14:56:23.225 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+14:56:23.318 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+14:56:23.334 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+14:56:23.341 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.664 seconds (JVM running for 2.745)
+14:56:35.771 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:56:35.771 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:56:35.772 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+14:56:35.788 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======测试日志info级别打印=====
+14:56:35.788 [http-nio-80-exec-1] WARN c.z.s.demos.controller.LogController - ======测试日志warn级别打印=====
+14:56:35.788 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+14:56:35.789 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+14:57:18.119 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+14:57:18.131 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+14:57:18.132 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:57:18.132 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:57:18.302 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:57:18.302 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1016 ms
+14:57:18.546 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+14:57:18.689 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+14:57:18.707 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+14:57:20.941 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+14:57:20.948 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+14:57:20.948 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:57:20.949 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:57:21.059 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:57:21.059 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 804 ms
+14:57:21.201 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+14:57:21.297 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+14:57:21.301 [main] WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 80 is already in use
+14:57:21.303 [main] INFO o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-80"]
+14:57:21.304 [main] INFO o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:57:21.307 [main] INFO o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-80"]
+14:57:21.307 [main] INFO o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-80"]
+14:57:21.311 [main] INFO o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14:57:21.775 [main] ERRORo.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 80 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 80 or configure this application to listen on another port.
+
+14:57:31.956 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:57:31.957 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:57:31.957 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+14:57:31.974 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+14:57:41.225 [http-nio-80-exec-2] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+14:58:04.565 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+14:58:04.572 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+14:58:04.573 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:58:04.573 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+14:58:04.694 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:58:04.694 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 926 ms
+14:58:04.859 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+14:58:04.940 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+14:58:04.954 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+14:58:10.586 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:58:10.586 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:58:10.587 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:58:10.604 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+15:11:25.547 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:11:25.554 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:11:25.554 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:11:25.554 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:11:25.661 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:11:25.661 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 773 ms
+15:11:25.797 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:11:25.879 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:11:25.890 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:11:35.787 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:11:35.787 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:11:35.788 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:11:35.804 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+15:12:05.090 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 19332 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:12:05.092 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+15:12:05.768 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:12:05.833 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:12:05.833 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:12:05.834 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:12:05.955 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:12:05.955 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 822 ms
+15:12:06.121 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:12:06.224 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:12:06.239 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:12:06.246 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.717 seconds (JVM running for 2.823)
+15:12:09.850 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:12:09.851 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:12:09.851 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+15:12:09.868 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======测试日志info级别打印=====
+15:12:09.868 [http-nio-80-exec-1] WARN c.z.s.demos.controller.LogController - ======测试日志warn级别打印=====
+15:12:09.868 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+15:12:09.868 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+15:12:09.869 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - 订单地址http://localhost:8002
+15:27:17.063 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 27672 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:27:17.066 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+15:27:17.844 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:27:17.849 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:27:17.850 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:27:17.850 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:27:17.959 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:27:17.959 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 846 ms
+15:27:18.101 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:27:18.181 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:27:18.193 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:27:18.199 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.697 seconds (JVM running for 2.817)
+15:27:25.491 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:27:25.491 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:27:25.492 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:27:25.508 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======测试日志info级别打印=====
+15:27:25.508 [http-nio-80-exec-1] WARN c.z.s.demos.controller.LogController - ======测试日志warn级别打印=====
+15:27:25.508 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+15:27:25.508 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+15:27:25.509 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - 订单地址http://localhost:8002
+15:27:25.509 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的订单服务地址为：http://localhost:8002
+15:27:25.509 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的用户服务地址为：http://localhost:8003
+15:27:25.509 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的购物车服务地址为：http://localhost:8004
+15:28:51.397 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 18056 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:28:51.399 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+15:28:52.047 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:28:52.053 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:28:52.053 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:28:52.053 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:28:52.158 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:28:52.158 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 727 ms
+15:28:52.300 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:28:52.375 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:28:52.388 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:28:52.394 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.497 seconds (JVM running for 2.574)
+15:29:10.129 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 25412 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:29:10.131 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+15:29:10.761 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:29:10.767 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:29:10.767 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:29:10.767 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:29:10.877 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:29:10.878 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 710 ms
+15:29:11.020 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:29:11.096 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:29:11.109 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:29:11.116 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.462 seconds (JVM running for 2.548)
+15:29:20.327 [http-nio-80-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:29:20.327 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:29:20.328 [http-nio-80-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:29:20.344 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======测试日志info级别打印=====
+15:29:20.344 [http-nio-80-exec-1] WARN c.z.s.demos.controller.LogController - ======测试日志warn级别打印=====
+15:29:20.344 [http-nio-80-exec-1] ERRORc.z.s.demos.controller.LogController - =====测试日志error级别打印====
+15:29:20.344 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - ======倪升武的个人博客：blog.itcodai.com；倪升武的CSDN博客：blog.csdn.net/eson_15
+15:29:20.344 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - 订单地址http://localhost:8002
+15:29:20.345 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - --------------url-----------------
+15:29:20.345 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的订单服务地址为：http://localhost:8002
+15:29:20.345 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的用户服务地址为：http://localhost:8003
+15:29:20.345 [http-nio-80-exec-1] INFO c.z.s.demos.controller.LogController - =====获取的购物车服务地址为：http://localhost:8004
+15:35:39.886 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 16512 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:35:39.889 [main] INFO c.z.s.SpringbootZkApplication - No active profile set, falling back to 1 default profile: "default"
+15:35:40.633 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+15:35:40.638 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+15:35:40.639 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:35:40.639 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:35:40.744 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:35:40.744 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 794 ms
+15:35:40.888 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:35:40.966 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+15:35:40.979 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+15:35:40.986 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.603 seconds (JVM running for 2.718)
+15:45:30.735 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 23924 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:45:30.736 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "pro"
+15:45:31.455 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:45:31.463 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:45:31.463 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:45:31.463 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:45:31.620 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:45:31.620 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+15:45:31.780 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:45:31.874 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:45:31.889 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:45:31.896 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.686 seconds (JVM running for 2.781)
+15:46:11.366 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 8156 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:46:11.368 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+15:46:11.993 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+15:46:11.999 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+15:46:11.999 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:46:12.000 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:46:12.104 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:46:12.104 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 703 ms
+15:46:12.244 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:46:12.321 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+15:46:12.334 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+15:46:12.340 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 1.445 seconds (JVM running for 2.54)
+16:21:47.525 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 3712 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+16:21:47.525 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+16:21:48.489 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+16:21:48.505 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+16:21:48.505 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:21:48.505 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:21:48.882 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:21:48.882 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1329 ms
+16:21:49.290 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:21:49.517 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+16:21:49.535 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+16:21:49.591 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 2.583 seconds (JVM running for 4.301)
+16:21:59.916 [http-nio-8089-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:59.916 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:21:59.916 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:31:45.033 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 31104 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+16:31:45.035 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+16:31:46.055 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+16:31:46.060 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+16:31:46.061 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:31:46.061 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:31:46.182 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:31:46.182 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1105 ms
+16:31:46.614 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:31:46.680 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+16:31:46.692 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+16:31:46.892 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 2.347 seconds (JVM running for 3.514)
+16:31:55.575 [http-nio-8089-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:55.575 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:31:55.575 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:36:40.033 [http-nio-8089-exec-7] WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]
+16:38:14.801 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 12584 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+16:38:14.803 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+16:38:15.796 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+16:38:15.810 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+16:38:15.811 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:38:15.811 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:38:15.935 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:38:15.935 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
+16:38:16.367 [main] INFO o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:38:16.432 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+16:38:16.446 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+16:38:16.617 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 2.338 seconds (JVM running for 3.576)
+16:38:34.667 [http-nio-8089-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:38:34.667 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:38:34.667 [http-nio-8089-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:38:34.685 [http-nio-8089-exec-1] WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "{id}"]

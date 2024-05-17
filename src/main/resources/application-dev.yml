@@ -1,0 +1,75 @@
+server:
+  port: 8080
+logging:
+  config: logback.xml
+url:
+  # 订单微服务的地址
+  orderUrl: http://localhost:8002
+  # 用户微服务的地址
+  userUrl: http://localhost:8003
+  # 购物车微服务的地址
+  shoppingUrl: http://localhost:8004
+spring:
+#  activemq:
+#    # activemq url
+#    broker-url: tcp://localhost:61616
+#    in-memory: true
+#    pool:
+#      # 如果此处设置为true，需要添加activemq-pool的依赖包，否则会自动配置失败，无法注入 JmsMessagingTemplate
+#      enabled: false
+  #redis相关配置
+  redis:
+    database: 5
+    # 配置redis的主机地址，需要修改成自己的
+    host: 127.0.0.1
+    port: 6379
+#    password: 123456
+    timeout: 5000
+    jedis:
+      pool:
+        max-idle: 500
+        min-idle: 50
+        max-active: 1000
+        max-wait: 2000
+  web:
+    resources:
+      static-locations: file:D:\\img\\,classpath:/static/
+  mvc:
+    static-path-pattern: /atts/**
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  thymeleaf:
+    cache: false #关闭缓存
+  datasource: # 数据库配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/iphit?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 10 # 最大连接池数
+      max-lifetime: 1770000
+  mail:
+    # 配置 SMTP 服务器地址
+    host: smtp.qq.com
+    # 发送者邮箱
+    username: 1544761998@qq.com
+    # 配置密码，注意不是真正的密码，而是刚刚申请到的授权码
+    password: ocigaowprxcfhgcc
+    # 端口号465或587
+    port: 587
+    # 默认的邮件编码为UTF-8
+    default-encoding: UTF-8
+    # 配置SSL 加密工厂
+    properties:
+      mail:
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory
+        #表示开启 DEBUG 模式，这样，邮件发送过程的日志会在控制台打印出来，方便排查错误
+        debug: true
+mybatis-plus:
+# 指定别名设置的包为所有entity
+  type-aliases-package: com.zk.springbootzk.demos.entity
+  configuration:
+    map-underscore-to-camel-case: false # 驼峰命名规范
+  mapper-locations: # mapper映射文件位置
+    - classpath:mapper/*.xml

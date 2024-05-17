@@ -1,0 +1,408 @@
+10:48:29.568 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 23820 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+10:48:29.568 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+10:48:31.671 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+10:48:31.686 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:48:31.718 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+10:48:32.235 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:48:32.235 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:48:32.235 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:48:32.235 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+10:48:32.408 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:48:32.408 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2589 ms
+10:48:34.609 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:48:34.622 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:48:34.981 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:48:35.245 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:48:35.385 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 6.647 seconds (JVM running for 8.719)
+10:49:01.305 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:49:01.305 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:49:01.305 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+10:49:01.322 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：sendQueueMessage，在该方法执行之前执行====
+10:49:01.322 [http-nio-8080-exec-1] INFO c.z.s.d.c.ActiveMqController - ===开始发送点对点消息===
+10:49:02.523 [http-nio-8080-exec-4] WARN o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+10:49:02.531 [http-nio-8080-exec-4] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：error，在该方法执行之前执行====
+11:08:21.592 [http-nio-8080-exec-10] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xd20x010x000x060xce0x030x0370xa80x1a0x1c ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+11:08:21.592 [http-nio-8080-exec-2] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xb20x010x000x060xae0x030x030xdbR0xbe0xda0xeb0xb2p0xc00xe2Y$Z?0x14`0x8d0xa5O0xee5S0xf20xb10x910xa0;0x8c0xd8+Wm0x9a ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+11:17:55.298 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:17:55.314 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:18:02.763 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 18520 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+11:18:02.766 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+11:18:03.577 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+11:18:03.579 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:18:03.600 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+11:18:04.080 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:18:04.086 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:04.087 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:18:04.087 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+11:18:04.228 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:18:04.228 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1410 ms
+11:18:06.179 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:18:06.191 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:18:06.595 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:18:06.701 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:18:06.731 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.497 seconds (JVM running for 5.738)
+11:18:30.398 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:18:30.398 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:18:30.398 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+11:18:30.398 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：sendTopicMessage，在该方法执行之前执行====
+11:18:30.415 [http-nio-8080-exec-1] INFO c.z.s.d.c.ActiveMqController - ===开始发送订阅消息===
+11:20:45.143 [http-nio-8080-exec-7] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x070x120x010x000x070x0e0x030x030xc7^0x812_0xebQ0x9b0xe0}0x050x080xe00xf4C0x12F.0x940xc90x1fvu0xb0>0x80hTDRs0xc6 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+11:20:45.143 [http-nio-8080-exec-8] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x070x120x010x000x070x0e0x030x03,JV{0xb7R0xb90xdbw0xe90xcc0xfbDg6(0x060xa70x130x03^0x8e0xe10x9be0x95\`d0x86E0xf1 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+13:45:54.865 [HikariPool-1 housekeeper] WARN com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22m48s19ms667µs300ns).
+15:36:08.478 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:36:08.485 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:36:22.466 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 18280 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:36:22.468 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+15:36:23.167 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+15:36:23.211 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:36:23.242 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+15:36:23.675 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:36:23.681 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:36:23.682 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:23.682 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:36:23.837 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:36:23.837 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1324 ms
+15:36:25.763 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:36:25.778 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:36:26.102 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:36:26.213 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:36:26.253 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.236 seconds (JVM running for 5.738)
+15:36:46.884 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:36:46.884 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:36:46.884 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+15:36:46.901 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test1，在该方法执行之前执行====
+15:48:21.899 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:48:21.909 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:48:29.414 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 5368 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+15:48:29.417 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+15:48:30.107 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+15:48:30.108 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:48:30.127 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+15:48:30.619 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:48:30.625 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:48:30.626 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:48:30.626 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:48:30.782 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:48:30.782 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1323 ms
+15:48:32.679 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:48:32.692 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:48:33.027 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:48:33.124 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:48:33.154 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.206 seconds (JVM running for 5.494)
+15:48:58.755 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:48:58.755 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:48:58.755 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+15:48:58.778 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test2，在该方法执行之前执行====
+16:07:25.204 [http-nio-8080-exec-6] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xf20x010x000x060xee0x030x030x9f0xf0#0xa60x880xd5!0xfb0xd1j0xcc0x860xab@b0x9d!o0x900x980xe50x010x850x8a0x850xdf0xc8Y0xb50x7f0xd30x96 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:07:25.204 [http-nio-8080-exec-7] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xb20x010x000x060xae0x030x030xe4B0xcd0x9c0x120x980x890x9fS0xe4I0xe50xb20x190xe60xf10xb80xf40xa7g0x88s0x1b0xa10xb6-0xbe0xd8$0x8fw< ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+16:55:01.539 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:55:01.547 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:55:09.682 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 13552 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+16:55:09.684 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+16:55:10.675 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+16:55:10.678 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:55:10.698 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+16:55:11.219 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:55:11.225 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:55:11.226 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:55:11.226 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+16:55:11.369 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:55:11.369 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1641 ms
+16:55:13.353 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:55:13.366 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:55:13.669 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:55:13.767 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:55:13.803 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.646 seconds (JVM running for 6.101)
+16:55:52.295 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:55:52.295 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:55:52.295 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:55:52.414 [http-nio-8080-exec-1] WARN o.s.web.servlet.PageNotFound - No mapping for GET /lucene/test3
+16:55:52.437 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：errorHtml，在该方法执行之前执行====
+16:57:17.728 [http-nio-8080-exec-4] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test，在该方法执行之前执行====
+17:01:05.500 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:01:05.510 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:01:15.162 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 23204 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+17:01:15.164 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+17:01:15.986 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+17:01:15.988 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:01:16.007 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+17:01:16.457 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:01:16.464 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:01:16.465 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:01:16.465 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+17:01:16.628 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:01:16.629 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1426 ms
+17:01:18.533 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:01:18.545 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:01:18.845 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:01:18.941 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:01:18.971 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.304 seconds (JVM running for 5.625)
+17:01:39.797 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:01:39.797 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:01:39.797 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+17:01:39.814 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test，在该方法执行之前执行====
+17:03:27.147 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:03:27.155 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:03:34.927 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 3924 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+17:03:34.929 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+17:03:35.896 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+17:03:35.898 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:03:35.918 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+17:03:36.375 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:03:36.383 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:03:36.383 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:03:36.384 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+17:03:36.532 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:03:36.532 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1564 ms
+17:03:38.455 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:03:38.467 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:03:38.834 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:03:38.937 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:03:38.970 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.547 seconds (JVM running for 5.996)
+17:03:46.858 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:03:46.858 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:03:46.859 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:03:46.870 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test，在该方法执行之前执行====
+17:06:50.526 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:06:50.531 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:06:54.081 [main] INFO c.z.s.SpringbootZkApplication - Starting SpringbootZkApplication using Java 1.8.0_361 on LAPTOP-UNQCOOPB with PID 10904 (D:\ProgramData\train\springbootZk\target\classes started by 也康 in D:\ProgramData\train\springbootZk)
+17:06:54.083 [main] INFO c.z.s.SpringbootZkApplication - The following 1 profile is active: "dev"
+17:06:54.795 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+17:06:54.796 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:06:54.814 [main] INFO o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+17:06:55.234 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:06:55.241 [main] INFO o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:06:55.242 [main] INFO o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:06:55.242 [main] INFO o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+17:06:55.391 [main] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:06:55.392 [main] INFO o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+17:06:57.327 [main] INFO o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:06:57.339 [main] INFO o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:06:57.648 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:06:57.744 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:06:57.775 [main] INFO c.z.s.SpringbootZkApplication - Started SpringbootZkApplication in 4.194 seconds (JVM running for 5.568)
+17:07:01.285 [http-nio-8080-exec-1] INFO o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:07:01.285 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:07:01.288 [http-nio-8080-exec-1] INFO o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+17:07:01.299 [http-nio-8080-exec-1] INFO c.z.s.demos.controller.MyInterceptor - ====拦截到了方法：test，在该方法执行之前执行====
+17:07:01.647 [http-nio-8080-exec-1] INFO c.z.s.demos.config.ChineseSearch - 匹配南京文明共耗时21毫秒
+17:07:01.647 [http-nio-8080-exec-1] INFO c.z.s.demos.config.ChineseSearch - 查询到1条记录
+17:07:01.808 [http-nio-8080-exec-1] INFO c.z.s.demos.config.ChineseSearch - city:南京
+17:07:01.808 [http-nio-8080-exec-1] INFO c.z.s.demos.config.ChineseSearch - desc:南京是一个文化的城市南京，简称宁，是江苏省会，地处中国东部地区，长江下游，濒江近海。全市下辖11个区，总面积6597平方公里，2013年建成区面积752.83平方公里，常住人口818.78万，其中城镇人口659.1万人。[1-4] “江南佳丽地，金陵帝王州”，南京拥有着6000多年文明史、近2600年建城史和近500年的建都史，是中国四大古都之一，有“六朝古都”、“十朝都会”之称，是中华文明的重要发祥地，历史上曾数次庇佑华夏之正朔，长期是中国南方的政治、经济、文化中心，拥有厚重的文化底蕴和丰富的历史遗存。[5-7] 南京是国家重要的科教中心，自古以来就是一座崇文重教的城市，有“天下文枢”、“东南第一学”的美誉。截至2013年，南京有高等院校75所，其中211高校8所，仅次于北京上海；国家重点实验室25所、国家重点学科169个、两院院士83人，均居中国第三。[8-10] 。
+17:07:01.836 [http-nio-8080-exec-1] INFO c.z.s.demos.config.ChineseSearch - 高亮后的desc:城镇人口659.1万人。[1-4] “江南佳丽地，金陵帝王州”，<b><font color=red>南京</font></b>拥有着6000多年<b><font color=red>文明</font></b>史、近2600年建城史和近500年的建都史，是中国四大古都之一，有“六朝古都”、“十朝都会”之称，是中华<b><font color=red>文明</font></b>的
+17:15:27.453 [http-nio-8080-exec-7] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xb20x010x000x060xae0x030x03Xb0xd80xfdL$0x880xaa0xef0x170x140x9680xa70x9b0xa10x890xfc0xae0xd20x040xcc0x020x1f0xe4%0xf0e0x9fjr0xb3 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+17:15:27.453 [http-nio-8080-exec-2] INFO o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xd20x010x000x060xce0x030x030x94v0xbe0xe30x0d*%9#0xc80xcb0x9530xa50xb4zkc0xf40x020x860x1340xa8Dg0xb9.0xac0x090xa60xbd ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:271)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+18:10:40.956 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61616@52209] INFO o.s.j.c.CachingConnectionFactory - Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: Connection reset
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:56)
+	at org.apache.activemq.ActiveMQConnection.onAsyncException(ActiveMQConnection.java:1973)
+	at org.apache.activemq.ActiveMQConnection.onException(ActiveMQConnection.java:1992)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:126)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 common frames omitted
+18:10:40.986 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO o.s.j.c.CachingConnectionFactory - Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.IllegalStateException: The Consumer is closed
+	at org.apache.activemq.ActiveMQMessageConsumer.checkClosed(ActiveMQMessageConsumer.java:898)
+	at org.apache.activemq.ActiveMQMessageConsumer.receive(ActiveMQMessageConsumer.java:653)
+	at org.springframework.jms.support.destination.JmsDestinationAccessor.receiveFromConsumer(JmsDestinationAccessor.java:132)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveMessage(AbstractPollingMessageListenerContainer.java:431)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:316)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1237)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1227)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1120)
+	at java.lang.Thread.run(Thread.java:750)
+18:10:40.987 [org.springframework.jms.JmsListenerEndpointContainer#1-1] WARN o.s.j.l.DefaultMessageListenerContainer - Setup of JMS message listener invoker failed for destination 'activemq.topic' - trying to recover. Cause: The Consumer is closed
+18:10:41.114 [ActiveMQ Connection Executor: tcp://localhost/127.0.0.1:61616@52209] WARN o.s.j.c.CachingConnectionFactory - Could not close shared JMS Connection
+javax.jms.JMSException: Disposed due to prior exception
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:80)
+	at org.apache.activemq.ActiveMQConnection.syncSendPacket(ActiveMQConnection.java:1423)
+	at org.apache.activemq.ActiveMQConnection.close(ActiveMQConnection.java:691)
+	at org.springframework.jms.connection.SingleConnectionFactory.closeConnection(SingleConnectionFactory.java:502)
+	at org.springframework.jms.connection.SingleConnectionFactory.resetConnection(SingleConnectionFactory.java:390)
+	at org.springframework.jms.connection.CachingConnectionFactory.resetConnection(CachingConnectionFactory.java:234)
+	at org.springframework.jms.connection.SingleConnectionFactory.onException(SingleConnectionFactory.java:368)
+	at org.springframework.jms.connection.SingleConnectionFactory$AggregatedExceptionListener.onException(SingleConnectionFactory.java:716)
+	at org.apache.activemq.ActiveMQConnection$5.run(ActiveMQConnection.java:1980)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.activemq.transport.TransportDisposedIOException: Disposed due to prior exception
+	at org.apache.activemq.transport.ResponseCorrelator.onException(ResponseCorrelator.java:125)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.TransportFilter.onException(TransportFilter.java:114)
+	at org.apache.activemq.transport.WireFormatNegotiator.onException(WireFormatNegotiator.java:173)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onException(AbstractInactivityMonitor.java:345)
+	at org.apache.activemq.transport.TransportSupport.onException(TransportSupport.java:96)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:219)
+	... 1 common frames omitted
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:634)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:59)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:619)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:280)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:240)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:232)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	... 1 common frames omitted
+18:10:41.114 [org.springframework.jms.JmsListenerEndpointContainer#0-1] WARN o.s.j.l.DefaultMessageListenerContainer - Setup of JMS message listener invoker failed for destination 'activemq.queue' - trying to recover. Cause: The Consumer is closed
+18:10:43.134 [org.springframework.jms.JmsListenerEndpointContainer#1-1] ERRORo.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.topic' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+18:10:45.180 [org.springframework.jms.JmsListenerEndpointContainer#0-1] INFO o.s.j.c.CachingConnectionFactory - Encountered a JMSException - resetting the underlying JMS Connection
+javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:38)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:374)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:304)
+	at org.apache.activemq.ActiveMQConnectionFactory.createConnection(ActiveMQConnectionFactory.java:244)
+	at org.springframework.jms.connection.SingleConnectionFactory.doCreateConnection(SingleConnectionFactory.java:410)
+	at org.springframework.jms.connection.SingleConnectionFactory.initConnection(SingleConnectionFactory.java:350)
+	at org.springframework.jms.connection.SingleConnectionFactory.getConnection(SingleConnectionFactory.java:328)
+	at org.springframework.jms.connection.SingleConnectionFactory.createConnection(SingleConnectionFactory.java:243)
+	at org.springframework.jms.support.JmsAccessor.createConnection(JmsAccessor.java:196)
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.createSharedConnection(AbstractJmsListeningContainer.java:412)
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.refreshSharedConnection(AbstractJmsListeningContainer.java:397)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.refreshConnectionUntilSuccessful(DefaultMessageListenerContainer.java:985)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer.recoverAfterListenerSetupFailure(DefaultMessageListenerContainer.java:959)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1146)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.activemq.transport.tcp.TcpTransport.connect(TcpTransport.java:525)
+	at org.apache.activemq.transport.tcp.TcpTransport.doStart(TcpTransport.java:488)
+	at org.apache.activemq.util.ServiceSupport.start(ServiceSupport.java:55)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.start(AbstractInactivityMonitor.java:169)
+	at org.apache.activemq.transport.InactivityMonitor.start(InactivityMonitor.java:52)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+	at org.apache.activemq.transport.WireFormatNegotiator.start(WireFormatNegotiator.java:72)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+	at org.apache.activemq.transport.TransportFilter.start(TransportFilter.java:64)
+	at org.apache.activemq.ActiveMQConnectionFactory.createActiveMQConnection(ActiveMQConnectionFactory.java:354)
+	... 13 common frames omitted
+18:10:45.180 [org.springframework.jms.JmsListenerEndpointContainer#0-1] ERRORo.s.j.l.DefaultMessageListenerContainer - Could not refresh JMS Connection for destination 'activemq.queue' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect
+18:10:51.034 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:10:51.038 [SpringApplicationShutdownHook] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
